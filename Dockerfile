@@ -1,4 +1,4 @@
-FROM onlyoffice/documentserver:7.4.2
+FROM onlyoffice/documentserver
 
 # 安装Python和相关依赖
 RUN apt-get update && \
